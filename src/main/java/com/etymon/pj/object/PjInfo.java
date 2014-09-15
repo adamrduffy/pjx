@@ -135,8 +135,8 @@ public class PjInfo
 		boolean atLeastOneValid = false;
 		Hashtable h = dictionary.getHashtable();
 		PjName key;
-		for (Enumeration enum = h.keys(); enum.hasMoreElements();) {
-			key = (PjName)(enum.nextElement());
+		for (Enumeration e = h.keys(); e.hasMoreElements();) {
+			key = (PjName)(e.nextElement());
 			if ( ( ! key.equals(PjName.AUTHOR) ) &&
 			     ( ! key.equals(PjName.CREATIONDATE) ) &&
 			     ( ! key.equals(PjName.MODDATE) ) &&

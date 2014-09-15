@@ -44,9 +44,9 @@ public class PjDictionary
 	public long writePdf(OutputStream os) throws IOException {
 		long z = writeln(os, "<<");
 		PjName name;
-		for (Enumeration enum = _h.keys();
-		     enum.hasMoreElements();) {
-			name = ((PjName)(enum.nextElement()));
+		for (Enumeration e = _h.keys();
+		     e.hasMoreElements();) {
+			name = ((PjName)(e.nextElement()));
 			z = z + name.writePdf(os);
 			z = z + write(os, " ");
 			z = z + ((PjObject)(_h.get(name))).writePdf(os);
