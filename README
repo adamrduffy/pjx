@@ -1,18 +1,13 @@
+This is version 1.2.1 of PJX. For a more recent version go to
+
+    https://github.com/nassar/pjx
 
 Welcome to PJX.
 
 *** See the files `COPYRIGHT' and `COPYING' for license terms. ***
 
 Please refer to the files in this directory for information about this
-release, and see the web site for updates and contact information:
-
-	http://www.etymon.com/pjx/
-
-See `doc/javadoc/overview-summary.html' for the user documentation.
-
-The file `pjx.jar' contains the PJX class files.
-
-Source code is located in the `src/' directory.
+release.
 
 We hope you enjoy using PJX!
 
